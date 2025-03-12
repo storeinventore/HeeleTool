@@ -37,7 +37,7 @@ def gradient_text(text, colors):
         colorful_text.append("\n")
     return colorful_text
 
-def print_brand():
+def banner(console):
     brand_text = """
     ██╗  ██╗███████╗███████╗██╗     ███████╗
     ██║  ██║██╔════╝██╔════╝██║     ██╔════╝
