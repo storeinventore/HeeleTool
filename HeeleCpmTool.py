@@ -57,11 +57,11 @@ def banner(console):
 colorful_text = gradient_text(brand_name, colors)
 console.print(colorful_text)
 
-print(Colorate.Horizontal(Colormap.LinearGradient((255, 0, 0), (128, 0, 128), 10), "==================================="))
-print(Colorate.Horizontal(Colormap.LinearGradient((255, 0, 0), (128, 0, 128), 10), "\t ПЕРЕД ИСПОЛЬЗОВАНИЕМ ЭТОГО ИНСТРУМЕНТА ВЫЙДИТЕ ИЗ CRM!"))
-print(Colorate.Horizontal(Colormap.LinearGradient((255, 0, 0), (128, 0, 128), 10), "• ОБМЕН КЛЮЧОМ ДОСТУПА НЕ РАЗРЕШЕН И БУДЕТ ЗАБЛОКИРОВАН!"))
-print(Colorate.Horizontal(Colormap.LinearGradient((255, 0, 0), (128, 0, 128), 10), f"• Telegram: @{__CHANNEL_USERNAME__} Или @{__GROUP_USERNAME__}"))
-print(Colorate.Horizontal(Colormap.LinearGradient((255, 0, 0), (128, 0, 128), 10), "==================================="))
+print(Colorate.Horizontal(Colors.LinearGradient((255, 0, 0), (128, 0, 128), 10), "==================================="))
+print(Colorate.Horizontal(Colors.LinearGradient((255, 0, 0), (128, 0, 128), 10), "\t ПЕРЕД ИСПОЛЬЗОВАНИЕМ ЭТОГО ИНСТРУМЕНТА ВЫЙДИТЕ ИЗ CRM!"))
+print(Colorate.Horizontal(Colors.LinearGradient((255, 0, 0), (128, 0, 128), 10), "• ОБМЕН КЛЮЧОМ ДОСТУПА НЕ РАЗРЕШЕН И БУДЕТ ЗАБЛОКИРОВАН!"))
+print(Colorate.Horizontal(Colors.LinearGradient((255, 0, 0), (128, 0, 128), 10), f"• Telegram: @{__CHANNEL_USERNAME__} Или @{__GROUP_USERNAME__}"))
+print(Colorate.Horizontal(Colors.LinearGradient((255, 0, 0), (128, 0, 128), 10), "==================================="))
 
 
 
