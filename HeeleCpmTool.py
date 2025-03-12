@@ -53,10 +53,10 @@ def banner(console):
         "rgb(216,191,216)", "rgb(221,160,221)", "rgb(238,130,238)", "rgb(255,0,255)", "rgb(153,50,204)",  
         "rgb(139,0,139)"
     ]
-
     colorful_text = gradient_text(brand_name, colors)
     console.print(colorful_text)
     sleep(1)
+    print("DEBUG")
 console.print(Colorate.Horizontal(Colors.purple_to_blue, '======================================================'))
 console.print(Colorate.Horizontal(Colors.purple_to_blue, '\t PLEASE LOGOUT FROM CPM BEFORE USING THIS TOOL'))
 console.print(Colorate.Horizontal(Colors.purple_to_blue, ' SHARING THE ACCESS KEY IS NOT ALLOWED AND WILL BE BLOCKED'))
