@@ -56,9 +56,9 @@ def banner(console):
     colorful_text = gradient_text(brand_name, colors)
     console.print(colorful_text)
     print(Colorate.Horizontal(Colors.red_to_purple, '======================================================'))
-    print(Colorate.Horizontal(Colors.red_to_purple, '\t ПЕРЕД ИСПОЛЬЗОВАНИЕМ ЭТОГО ИНСТРУМЕНТА ВЫЙДИТЕ ИЗ CPM', style="bold magenta"))
-    print(Colorate.Horizontal(Colors.red_to_purple, ' ОБМЕН КЛЮЧОМ ДОСТУПА НЕ РАЗРЕШЕН И БУДЕТ ЗАБЛОКИРОВАН', style="bold red"))
-    print(Colorate.Horizontal(Colors.red_to_purple, f' Telegram: @{__CHANNEL_USERNAME__} Или @{__GROUP_USERNAME__}', style="bold blue"))
+    print(Colorate.Horizontal(Colors.red_to_purple, '\t 𝗣𝗘𝗥𝗘𝗗 𝗜𝗦𝗣𝗢𝗟𝗬𝗭𝗢𝗩𝗔𝗡𝗜𝗘𝗠 𝗘𝗧𝗢𝗚𝗢 𝗜𝗡𝗦𝗧𝗥𝗨𝗠𝗘𝗡𝗧𝗔 𝗩𝗬𝗜𝗗𝗜𝗧𝗘 𝗜𝗭 𝗖𝗣𝗠'))
+    print(Colorate.Horizontal(Colors.red_to_purple, ' 𝗢𝗕𝗠𝗘𝗡 𝗞𝗟𝗬𝗨𝗖𝗛𝗢𝗠 𝗗𝗢𝗦𝗧𝗨𝗣𝗔 𝗡𝗘 𝗥𝗔𝗭𝗥𝗘𝗦𝗛𝗘𝗡 𝗜 𝗕𝗨𝗗𝗘𝗧 𝗭𝗔𝗕𝗟𝗢𝗞𝗜𝗥𝗢𝗩𝗔𝗡'))
+    print(Colorate.Horizontal(Colors.red_to_purple, f' 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺: @{__CHANNEL_USERNAME__} @{__GROUP_USERNAME__}'))
     print(Colorate.Horizontal(Colors.red_to_purple, '======================================================'))
 
 
