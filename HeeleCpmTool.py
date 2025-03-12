@@ -15,8 +15,8 @@ from pystyle import Colors, Colorate
 from heeletool import storeinventore
 
 brand_name = "Heele"  # Название бренда
-__CHANNEL_USERNAME__ = "𝐇𝐞𝐞𝐥𝐞𝐂𝐩𝐦 𝐓𝐨𝐨𝐥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥"
-__GROUP_USERNAME__   = "𝐇𝐞𝐞𝐥𝐞𝐂𝐩𝐦 𝐓𝐨𝐨𝐥 𝐃𝐢𝐬𝐜𝐮𝐬𝐬𝐢𝐨𝐧"
+__CHANNEL_USERNAME__ = "@HeeleToolBot"
+__GROUP_USERNAME__   = "HeeleCpm Tool Channel"
 
 def signal_handler(sig, frame):
     print("\n Bye Bye...")
@@ -56,9 +56,9 @@ def banner(console):
     colorful_text = gradient_text(brand_name, colors)
     console.print(colorful_text)
     print(Colorate.Horizontal(Colors.purple_to_white, '======================================================'))
-    print(Colorate.Horizontal(Colors.purple_to_white, '\t PLEASE LOGOUT FROM CPM BEFORE USING THIS TOOL'))
-    print(Colorate.Horizontal(Colors.purple_to_white, ' SHARING THE ACCESS KEY IS NOT ALLOWED AND WILL BE BLOCKED'))
-    print(Colorate.Horizontal(Colors.purple_to_white, f' Telegram: @{__CHANNEL_USERNAME__} Or @{__GROUP_USERNAME__}'))
+    print(Colorate.Horizontal(Colors.purple_to_white, '\t ПЕРЕД ИСПОЛЬЗОВАНИЕМ ЭТОГО ИНСТРУМЕНТА ВЫЙДИТЕ ИЗ CPM'))
+    print(Colorate.Horizontal(Colors.purple_to_white, ' ОБМЕН КЛЮЧОМ ДОСТУПА НЕ РАЗРЕШЕН И БУДЕТ ЗАБЛОКИРОВАН'))
+    print(Colorate.Horizontal(Colors.purple_to_white, f' Telegram: @{__CHANNEL_USERNAME__} Или @{__GROUP_USERNAME__}'))
     print(Colorate.Horizontal(Colors.purple_to_white, '======================================================'))
 
 
