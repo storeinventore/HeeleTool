@@ -7,14 +7,31 @@ class storeinventore:
         self.auth_token = None
         self.access_key = access_key
     
-    def login(self, email, password) -> int:
-        payload = { "account_email": email, "account_password": password }
-        params = { "key": self.access_key }
-        response = requests.post(f"{__ENDPOINT_URL__}/account_login", params=params, data=payload)
+def login(self, email, password) -> int:
+    payload = {"account_email": email, "account_password": password}
+    params = {"key": self.access_key}
+    
+    response = requests.post(f"{__ENDPOINT_URL__}/account_login", params=params, data=payload)
+
+    # Проверяем статус-код ответа
+    if response.status_code != 200:
+        print(f"Ошибка: Сервер вернул {response.status_code}")
+        print("Ответ сервера:", response.text)
+        return -1  # Код ошибки
+
+    try:
         response_decoded = response.json()
-        if response_decoded.get("ok"):
-            self.auth_token = response_decoded.get("auth")
-        return response_decoded.get("error")
+    except requests.exceptions.JSONDecodeError:
+        print("Ошибка: сервер вернул некорректный JSON!")
+        print("Ответ сервера:", response.text)
+        return -1  # Код ошибки
+
+    if response_decoded.get("ok"):
+        self.auth_token = response_decoded.get("auth")
+        return 0  # Успех
+
+    return response_decoded.get("error", -1)  # Вернуть код ошибки, если он есть
+
     
     def register(self, email, password) -> int:
         payload = { "account_email": email, "account_password": password }
