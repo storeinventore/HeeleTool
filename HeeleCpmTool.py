@@ -50,7 +50,7 @@ def banner(console):
     brand_name += "██║  ██║██║  ██║███████╗███████╗███████╗\n"
     brand_name += "╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝\n"
     
-    colors = Colormap.Gradient([(255, 0, 255), (255, 255, 255)], 10)  # Фиолетовый → Белый градиент
+    colors = Colorate.Gradient([(255, 0, 255), (255, 255, 255)], 10)  # Фиолетовый → Белый градиент
     
     colorful_text = gradient_text(brand_name, colors)  # Градиентный текст заголовка
     console.print(colorful_text)
