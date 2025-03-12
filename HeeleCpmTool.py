@@ -58,7 +58,7 @@ def banner(console):
     print(Colorate.Horizontal(Colors.red_to_purple, '======================================================'))
     print(Colorate.Horizontal(Colors.red_to_purple, '\t ПЕРЕД ИСПОЛЬЗОВАНИЕМ ЭТОГО ИНСТРУМЕНТА ВЫЙДИТЕ ИЗ CPM', style="bold magenta"))
     print(Colorate.Horizontal(Colors.red_to_purple, ' ОБМЕН КЛЮЧОМ ДОСТУПА НЕ РАЗРЕШЕН И БУДЕТ ЗАБЛОКИРОВАН', style="bold red"))
-    print(Colorate.Horizontal(Colors.red_to_purple, f' Telegram: @{__CHANNEL_USERNAME__} Или @{__GROUP_USERNAME__}'style="bold blue"))
+    print(Colorate.Horizontal(Colors.red_to_purple, f' Telegram: @{__CHANNEL_USERNAME__} Или @{__GROUP_USERNAME__}', style="bold blue"))
     print(Colorate.Horizontal(Colors.red_to_purple, '======================================================'))
 
 
