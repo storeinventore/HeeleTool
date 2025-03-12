@@ -49,17 +49,20 @@ def banner(console):
     brand_name += "                ██║░░██║███████╗███████╗███████╗███████╗\n" 
     brand_name += "                ╚═╝░░╚═╝╚══════╝╚══════╝╚══════╝╚══════╝\n" 
     colors = [
-        "rgb(75,0,130)", "rgb(102,0,153)", "rgb(123,31,162)", "rgb(147,112,219)", "rgb(186,85,211)",  
-        "rgb(216,191,216)", "rgb(221,160,221)", "rgb(238,130,238)", "rgb(255,0,255)", "rgb(153,50,204)",  
-        "rgb(139,0,139)"
+    (75, 0, 130), (102, 0, 153), (123, 31, 162), (147, 112, 219),
+    (186, 85, 211), (216, 191, 216), (221, 160, 221), (238, 130, 238),
+    (255, 0, 255), (153, 50, 204), (139, 0, 139)
 ]
+
 colorful_text = gradient_text(brand_name, colors)
 console.print(colorful_text)
-print(Colorate.Horizontal(Colors.red_to_purple, '======================================================'))
-print(Colorate.Horizontal(Colors.red_to_purple, '\t ПЕРЕД ИСПОЛЬЗОВАНИЕМ ЭТОГО ИНСТРУМЕНТА ВЫЙДИТЕ ИЗ CPM'))
-print(Colorate.Horizontal(Colors.red_to_purple, ' ОБМЕН КЛЮЧОМ ДОСТУПА НЕ РАЗРЕШЕН И БУДЕТ ЗАБЛОКИРОВАН'))
-print(Colorate.Horizontal(Colors.red_to_purple, f' Telegram: @{__CHANNEL_USERNAME__} Или @{__GROUP_USERNAME__}'))
-print(Colorate.Horizontal(Colors.red_to_purple, '======================================================'))
+
+print(Colorate.Horizontal(Colormap.LinearGradient((255, 0, 0), (128, 0, 128), 10), "==================================="))
+print(Colorate.Horizontal(Colormap.LinearGradient((255, 0, 0), (128, 0, 128), 10), "\t ПЕРЕД ИСПОЛЬЗОВАНИЕМ ЭТОГО ИНСТРУМЕНТА ВЫЙДИТЕ ИЗ CRM!"))
+print(Colorate.Horizontal(Colormap.LinearGradient((255, 0, 0), (128, 0, 128), 10), "• ОБМЕН КЛЮЧОМ ДОСТУПА НЕ РАЗРЕШЕН И БУДЕТ ЗАБЛОКИРОВАН!"))
+print(Colorate.Horizontal(Colormap.LinearGradient((255, 0, 0), (128, 0, 128), 10), f"• Telegram: @{__CHANNEL_USERNAME__} Или @{__GROUP_USERNAME__}"))
+print(Colorate.Horizontal(Colormap.LinearGradient((255, 0, 0), (128, 0, 128), 10), "==================================="))
+
 
 
 def load_player_data(cpm):
