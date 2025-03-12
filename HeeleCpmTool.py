@@ -55,11 +55,11 @@ def banner(console):
     ]
     colorful_text = gradient_text(brand_name, colors)
     console.print(colorful_text)
-    print(Colorate.Horizontal(Colors.purple_to_white, '======================================================'))
-    print(Colorate.Horizontal(Colors.purple_to_white, '\t ПЕРЕД ИСПОЛЬЗОВАНИЕМ ЭТОГО ИНСТРУМЕНТА ВЫЙДИТЕ ИЗ CPM'))
-    print(Colorate.Horizontal(Colors.purple_to_white, ' ОБМЕН КЛЮЧОМ ДОСТУПА НЕ РАЗРЕШЕН И БУДЕТ ЗАБЛОКИРОВАН'))
-    print(Colorate.Horizontal(Colors.purple_to_white, f' Telegram: @{__CHANNEL_USERNAME__} Или @{__GROUP_USERNAME__}'))
-    print(Colorate.Horizontal(Colors.purple_to_white, '======================================================'))
+    print(Colorate.Horizontal(Colors.DynamicMIX((255, 0, 255), (255, 255, 255)), '======================================================'))
+    print(Colorate.Horizontal(Colors.DynamicMIX((255, 0, 255), (255, 255, 255)), '\t ПЕРЕД ИСПОЛЬЗОВАНИЕМ ЭТОГО ИНСТРУМЕНТА ВЫЙДИТЕ ИЗ CPM'))
+    print(Colorate.Horizontal(Colors.DynamicMIX((255, 0, 255), (255, 255, 255)), ' ОБМЕН КЛЮЧОМ ДОСТУПА НЕ РАЗРЕШЕН И БУДЕТ ЗАБЛОКИРОВАН'))
+    print(Colorate.Horizontal(Colors.DynamicMIX((255, 0, 255), (255, 255, 255)), f' Telegram: @{__CHANNEL_USERNAME__} Или @{__GROUP_USERNAME__}'))
+    print(Colorate.Horizontal(Colors.DynamicMIX((255, 0, 255), (255, 255, 255)), '======================================================'))
 
 
 
