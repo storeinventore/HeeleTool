@@ -55,8 +55,8 @@ colors = [
 ]
 colorful_text = gradient_text(brand_name, colors)
 console.print(colorful_text)
-print(Colorate.Horizontal(Colors.purple_to_blue '======================================================'))
-print(Colorate.Horizontal(Colors.purple_to_blue '\t ПЕРЕД ИСПОЛЬЗОВАНИЕМ ЭТОГО ИНСТРУМЕНТА ВЫЙДИТЕ ИЗ CPM'))
+print(Colorate.Horizontal(Colors.purple_to_blue, '======================================================'))
+print(Colorate.Horizontal(Colors.purple_to_blue, '\t ПЕРЕД ИСПОЛЬЗОВАНИЕМ ЭТОГО ИНСТРУМЕНТА ВЫЙДИТЕ ИЗ CPM'))
 print(Colorate.Horizontal(Colors.red_to_purple, ' ОБМЕН КЛЮЧОМ ДОСТУПА НЕ РАЗРЕШЕН И БУДЕТ ЗАБЛОКИРОВАН'))
 print(Colorate.Horizontal(Colors.red_to_purple, f' Telegram: @{__CHANNEL_USERNAME__} Или @{__GROUP_USERNAME__}'))
 print(Colorate.Horizontal(Colors.red_to_purple, '======================================================'))
