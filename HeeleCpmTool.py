@@ -56,11 +56,11 @@ def banner(console):
     colorful_text = gradient_text(brand_name, colors)
     console.print(colorful_text)
     time.sleep(1)
-Console.print(Colorate.Horizontal(Colors.purple_to_blue, '======================================================'))
-Console.print(Colorate.Horizontal(Colors.purple_to_blue, '\t PLEASE LOGOUT FROM CPM BEFORE USING THIS TOOL'))
-Console.print(Colorate.Horizontal(Colors.purple_to_blue, ' SHARING THE ACCESS KEY IS NOT ALLOWED AND WILL BE BLOCKED'))
-Console.print(Colorate.Horizontal(Colors.purple_to_blue, f' Telegram: @{__CHANNEL_USERNAME__} Or @{__GROUP_USERNAME__}'))
-Console.print(Colorate.Horizontal(Colors.purple_to_blue, '======================================================'))
+console.print(Colorate.Horizontal(Colors.purple_to_blue, '======================================================'))
+console.print(Colorate.Horizontal(Colors.purple_to_blue, '\t PLEASE LOGOUT FROM CPM BEFORE USING THIS TOOL'))
+console.print(Colorate.Horizontal(Colors.purple_to_blue, ' SHARING THE ACCESS KEY IS NOT ALLOWED AND WILL BE BLOCKED'))
+console.print(Colorate.Horizontal(Colors.purple_to_blue, f' Telegram: @{__CHANNEL_USERNAME__} Or @{__GROUP_USERNAME__}'))
+console.print(Colorate.Horizontal(Colors.purple_to_blue, '======================================================'))
 
 
 
