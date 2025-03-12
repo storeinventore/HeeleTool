@@ -55,8 +55,6 @@ def banner(console):
     ]
     colorful_text = gradient_text(brand_name, colors)
     console.print(colorful_text)
-    sleep(1)
-    print("DEBUG")
     print(Colorate.Horizontal(Colors.purple_to_white, '======================================================'))
     print(Colorate.Horizontal(Colors.purple_to_white, '\t PLEASE LOGOUT FROM CPM BEFORE USING THIS TOOL'))
     print(Colorate.Horizontal(Colors.purple_to_white, ' SHARING THE ACCESS KEY IS NOT ALLOWED AND WILL BE BLOCKED'))
