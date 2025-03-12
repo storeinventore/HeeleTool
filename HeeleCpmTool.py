@@ -50,12 +50,8 @@ def banner(console):
 "rgb(216,191,216)", "rgb(221,160,221)", "rgb(238,130,238)", "rgb(255,0,255)", "rgb(153,50,204)",  
 "rgb(139,0,139)"
 ]
-    
-brand_name = "Heele"  # Название бренда
-
 colorful_text = gradient_text(brand_name, colors)
 console.print(colorful_text)
-
 print(Colorate.Horizontal(Colors.purple_to_blue, '=================================================================='))
 print(Colorate.Horizontal(Colors.purple_to_blue, '\t         𝐏𝐋𝐄𝐀𝐒𝐄 𝐋𝐎𝐆𝐎𝐔𝐓 𝐅𝐑𝐎𝐌 𝐂𝐏𝐌 𝐁𝐄𝐅𝐎𝐑𝐄 𝐔𝐒𝐈𝐍𝐆 𝐓𝐇𝐈𝐒 𝐓𝐎𝐎𝐋'))
 print(Colorate.Horizontal(Colors.purple_to_blue, '    𝐒𝐇𝐀𝐑𝐈𝐍𝐆 𝐓𝐇𝐄 𝐀𝐂𝐂𝐄𝐒𝐒 𝐊𝐄𝐘 𝐈𝐒 𝐍𝐎𝐓 𝐀𝐋𝐋𝐎𝐖𝐄𝐃 𝐀𝐍𝐃 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐁𝐋𝐎𝐂𝐊𝐄𝐃'))
