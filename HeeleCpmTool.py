@@ -13,6 +13,7 @@ from pystyle import Colors, Colorate
 
 from heeletool import storeinventore
 
+brand_name = "Heele"  # Название бренда
 __CHANNEL_USERNAME__ = "𝐇𝐞𝐞𝐥𝐞𝐂𝐩𝐦 𝐓𝐨𝐨𝐥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥"
 __GROUP_USERNAME__   = "𝐇𝐞𝐞𝐥𝐞𝐂𝐩𝐦 𝐓𝐨𝐨𝐥 𝐃𝐢𝐬𝐜𝐮𝐬𝐬𝐢𝐨𝐧"
 
