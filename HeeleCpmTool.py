@@ -53,13 +53,13 @@ def banner(console):
         "rgb(216,191,216)", "rgb(221,160,221)", "rgb(238,130,238)", "rgb(255,0,255)", "rgb(153,50,204)",  
         "rgb(139,0,139)"
 ]
-colorful_text = gradient_text(brand_name, colors)
-console.print(colorful_text)
-print(Colorate.Horizontal(Colors.purple_to_blue, '======================================================'))
-print(Colorate.Horizontal(Colors.purple_to_blue, '\t ПЕРЕД ИСПОЛЬЗОВАНИЕМ ЭТОГО ИНСТРУМЕНТА ВЫЙДИТЕ ИЗ CPM'))
-print(Colorate.Horizontal(Colors.purple_to_blue, ' ОБМЕН КЛЮЧОМ ДОСТУПА НЕ РАЗРЕШЕН И БУДЕТ ЗАБЛОКИРОВАН'))
-print(Colorate.Horizontal(Colors.purple_to_blue, f' Telegram: @{__CHANNEL_USERNAME__} Или @{__GROUP_USERNAME__}'))
-print(Colorate.Horizontal(Colors.purple_to_blue, '======================================================'))
+    colorful_text = gradient_text(brand_name, colors)
+    console.print(colorful_text)
+    print(Colorate.Horizontal(Colors.purple_to_blue, '======================================================'))
+    print(Colorate.Horizontal(Colors.purple_to_blue, '\t ПЕРЕД ИСПОЛЬЗОВАНИЕМ ЭТОГО ИНСТРУМЕНТА ВЫЙДИТЕ ИЗ CPM'))
+    print(Colorate.Horizontal(Colors.purple_to_blue, ' ОБМЕН КЛЮЧОМ ДОСТУПА НЕ РАЗРЕШЕН И БУДЕТ ЗАБЛОКИРОВАН'))
+    print(Colorate.Horizontal(Colors.purple_to_blue, f' Telegram: @{__CHANNEL_USERNAME__} Или @{__GROUP_USERNAME__}'))
+    print(Colorate.Horizontal(Colors.purple_to_blue, '======================================================'))
 
 
 
