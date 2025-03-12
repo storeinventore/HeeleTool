@@ -40,9 +40,7 @@ def gradient_text(text, colors):
 
 def banner(console):
     os.system('cls' if os.name == 'nt' else 'clear')      
-
 brand_name = "HEELE\n"  # бренд
- 
     brand_name =  "                ██╗░░██╗███████╗███████╗██╗░░░░░███████╗\n" 
     brand_name += "                ██║░░██║██╔════╝██╔════╝██║░░░░░██╔════╝\n" 
     brand_name += "                ███████║█████╗░░█████╗░░██║░░░░░█████╗░░\n" 
