@@ -12,7 +12,7 @@ from rich.style import Style
 import pystyle
 from pystyle import Colors, Colorate
 
-from heeletool import storeinventore
+from heeletool import StoreInventore
 
 brand_name = "Heele"  # Название бренда
 __CHANNEL_USERNAME__ = "HeeleToolBot"
