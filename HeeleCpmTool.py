@@ -13,8 +13,8 @@ from pystyle import Colors, Colorate
 
 from heeletool import storeinventore
 
-__CHANNEL_USERNAME__ = "Suprememodzofficiall"
-__GROUP_USERNAME__   = "Suprememodzofficialll"
+__CHANNEL_USERNAME__ = "𝐇𝐞𝐞𝐥𝐞𝐂𝐩𝐦 𝐓𝐨𝐨𝐥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥"
+__GROUP_USERNAME__   = "𝐇𝐞𝐞𝐥𝐞𝐂𝐩𝐦 𝐓𝐨𝐨𝐥 𝐃𝐢𝐬𝐜𝐮𝐬𝐬𝐢𝐨𝐧"
 
 def signal_handler(sig, frame):
     print("\n Bye Bye...")
