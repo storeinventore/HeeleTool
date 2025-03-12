@@ -52,10 +52,6 @@ def banner(console):
 
     brand_name = "Heele"  # Название бренда
 
-colors = [
-    "rgb(75,0,130)", "rgb(102,0,153)", "rgb(123,31,162)", "rgb(147,112,219)", "rgb(186,85,211)",  
-    "rgb(216,191,216)", "rgb(221,160,221)", "rgb(238,130,238)", "rgb(255,0,255)", "rgb(153,50,204)",  
-    "rgb(139,0,139)"
 ]
 
 colorful_text = gradient_text(brand_name, colors)
